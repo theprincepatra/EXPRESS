@@ -31,23 +31,57 @@ It sorts files into subfolders like `images/`, `videos/`, `docs/`, and more — 
    node organize.js
 
 
+## GLANCE->
+```bash
 
 BEFORE RUNNING:
-project/
-├── organize.js
-├── photo.png
-├── video.mp4
-├── notes.txt
-├── random.xyz
+.
+├── d1.doc
+├── d2.doc
+├── d3.doc
+├── g1.gif
+├── g2.gif
+├── g3.gif
+├── i1.img
+├── i2.img
+├── i3.img
+├── i4.img
+├── i5.img
+├── je.jpeg
+├── m1.mp4
+├── m2.mp4
+├── p1.png
+├── tpp.txt
+└── pd.pdf
+
 
 AFTER RUNNING:
-project/
-├── organize.js
-├── images/
-│   └── photo.png
-├── videos/
-│   └── video.mp4
-├── docs/
-│   └── notes.txt
-├── others/
-│   └── random.xyz
+.
+├── docs
+│   ├── d1.doc
+│   ├── d2.doc
+│   ├── d3.doc
+│   ├── tpp.txt
+│   └── pd.pdf
+│
+├── images
+│   ├── g1.gif
+│   ├── g2.gif
+│   ├── g3.gif
+│   ├── i1.img
+│   ├── i2.img
+│   ├── i3.img
+│   ├── i4.img
+│   ├── i5.img
+│   ├── je.jpeg
+│   └── p1.png
+│
+├── videos
+│   ├── m1.mp4
+│   └── m2.mp4
+│
+├── others
+│   └── (empty for now)
+│
+└── no_extension
+    └── (empty for now)
